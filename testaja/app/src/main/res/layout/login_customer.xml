@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFF"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/iphone8plus1"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="350dp"
+        android:text="Login"
+        android:textColor="#FFF"
+        android:textSize="28dp"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:text="Don't have an account?"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="590dp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:text="Sign Up"
+        android:textColor="#00F"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="635dp" />
+
+    <Button
+        android:layout_width="345dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#D0D9EE"
+        android:text="Continue With Email"
+        android:textColor="#3a3a3a"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:paddingLeft="10dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="410dp"
+        android:background="@drawable/bg_button"
+        />
+    <Button
+        android:layout_width="345dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#D0D9EE"
+        android:text="Continue With Facebook"
+        android:textColor="#3a3a3a"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:paddingLeft="50dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="490dp"
+        android:background="@drawable/bg_button"
+        />
+
+    <Button
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="428dp"
+        android:foreground="@drawable/email_1"
+        />
+
+    <Button
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="508dp"
+        android:foreground="@drawable/facebook"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

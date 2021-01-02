@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFF"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/iphone8plus1"
+        android:contentDescription="@string/todo" />
+
+    <EditText
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:hint="Username"
+        android:inputType="text"
+        android:paddingLeft="16dp"
+        android:textSize="24dp"
+        android:shadowColor="@color/black"
+        android:background="@drawable/bg_button"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="430dp"
+        />
+
+    <TextView
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="350dp"
+        android:text="Login Employee"
+        android:textColor="#FFF"
+        android:textSize="28dp"
+        />
+
+    <EditText
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:hint="Password"
+        android:inputType="text"
+        android:paddingLeft="16dp"
+        android:textSize="24dp"
+        android:shadowColor="@color/black"
+        android:background="@drawable/bg_button"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="510dp"
+        />
+
+    <Button
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#D0D9EE"
+        android:text="Sign in"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:textSize="24dp"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="590dp"
+        android:background="@drawable/bg_button"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
