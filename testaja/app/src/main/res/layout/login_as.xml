@@ -4,7 +4,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".LoginasActivity">
 
     <View
         android:layout_width="match_parent"
@@ -28,6 +29,7 @@
         tools:layout_editor_absoluteY="335dp" />
 
     <Button
+        android:id="@+id/buttonascustomer"
         android:layout_width="310dp"
         android:layout_height="60dp"
         android:background="@drawable/bg_button"
@@ -37,8 +39,10 @@
         android:textColor="@color/black"
         android:textSize="24dp"
         tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="423dp" />
+        tools:layout_editor_absoluteY="423dp"
+        tools:ignore="MissingConstraints" />
     <Button
+        android:id="@+id/buttonasemployee"
         android:layout_width="310dp"
         android:layout_height="60dp"
         android:backgroundTint="#D0D9EE"
@@ -49,6 +53,6 @@
         tools:layout_editor_absoluteX="50dp"
         tools:layout_editor_absoluteY="490dp"
         android:background="@drawable/bg_button"
-        />
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Testaja">
+        <activity android:name=".LoginEmployee"></activity>
+        <activity android:name=".LoginCustomer" />
+        <activity android:name=".LoginasActivity" />
+
         <meta-data
             android:name="com.google.android.actions"
             android:resource="@xml/actions" />
